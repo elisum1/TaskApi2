@@ -24,7 +24,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 // Configurar CORS
 app.use(cors({
-  origin: ['https://task-web2.vercel.app/'], 
+  origin: ['https://task-web2.vercel.app'], 
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   allowedHeaders: ['Content-Type', 'Authorization'],
   credentials: true, 
